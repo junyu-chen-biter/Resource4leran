@@ -1,40 +1,32 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>浪花索引站</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Zhi+Mang+Xing&family=Noto+Sans+SC:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <div class="sea-bg"></div>
-    <main class="layout">
-      <header class="hero panel">
-        <p class="hero-tag">Beach Comic · Link Atlas</p>
-        <h1>浪花索引站</h1>
-        <p class="hero-copy">
-          收录你常用、实用、好玩的网址，把灵感整理成海边小册子。
-        </p>
-        <div class="toolbar">
-          <input
-            id="searchInput"
-            type="search"
-            placeholder="搜索网站名、标签或描述..."
-            aria-label="搜索网站"
-          />
-          <button id="clearBtn" type="button">清空</button>
-        </div>
-        <nav id="categoryTabs" class="tabs" aria-label="网站分类"></nav>
-      </header>
-      <section class="wave-divider" aria-hidden="true"></section>
-      <section id="listContainer" class="list-grid"></section>
-    </main>
-    <script type="module" src="./script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>有用的索引站</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="sea-bg"></div>
+  <main class="layout">
+    <header class="hero panel">
+      <p class="hero-tag">Marquez Chen· Link Atlas</p>
+      <h1>一些”好东西“索引站</h1>
+      <p class="hero-copy">
+        收录你常用、实用、好玩的网址，把灵感整理成海边小册子。
+      </p>
+      <div class="toolbar">
+        <input id="searchInput" type="search" placeholder="搜索网站名、标签或描述..." aria-label="搜索网站" />
+        <button id="clearBtn" type="button">清空</button>
+      </div>
+      <nav id="categoryTabs" class="tabs" aria-label="网站分类"></nav>
+    </header>
+    <section class="wave-divider" aria-hidden="true"></section>
+    <section id="listContainer" class="list-grid"></section>
+  </main>
+  <script type="module" src="./script.js"></script>
+</body>
+
 </html>
