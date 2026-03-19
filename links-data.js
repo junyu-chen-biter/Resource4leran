@@ -65,6 +65,12 @@ export const categories = [
         tags: []
       },
       {
+        name: "保研人资源索引",
+        url: "https://www.baoyanren.com/home",
+        description: "保研人资源索引",
+        tags: []
+      },
+      {
         name: "bit-cs资料索引",
         url: "https://bit101.cn/gallery/5850",
         description: "bit-cs资料索引",
